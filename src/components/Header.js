@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div>
             <header className="journal-header">
-                <h1 className="title">my travel journal</h1>
+                <h1 className="title">The Beatles</h1>
             </header>
         </div>
     )

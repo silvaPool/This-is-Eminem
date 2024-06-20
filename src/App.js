@@ -4,14 +4,21 @@ import Cards from './components/Cards';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Layout from './components/Layout';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Pages from './components/Pages';
 
 function App() {
-  const mappedData = data.map((item) => {
-    return (
-      <Cards key={item.id} item={item} />
-    )
-  })
+ 
   return (
+
+    <BrowserRouter>
+
+        <Routes>
+          <Route path="/" element={<Layout />}/>
+          <Route path="albuns" element={<Pages />} />
+        </Routes>
+
+    </BrowserRouter>
 
     // <div className='App'>
     //   <Header />
@@ -19,7 +26,7 @@ function App() {
     //   <Footer />
     // </div>
 
-    <Layout />
+    // <Layout />
    
   );
 }

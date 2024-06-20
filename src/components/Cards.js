@@ -13,11 +13,13 @@ export default function Cards(props) {
             <section className="column-right">
                 {/* <span className="material-symbols-outlined">location_on</span> */}
                 <Typography sx={{fontSize: "25px", fontFamily: "Playwrite GB J"}}>{props.item.title}</Typography>
-                    <span className="card-country">País: {props.item.country}</span>
+                    <Typography className="card-country">Estúdio: {props.item.studios}</Typography>
                     {/* <a href={props.item.googleMapLink}>View on Google Maps</a> */}
                     <Typography sx={{fontSize: '20px', fontFamily: "Playwrite GB S"}}>Lançamento: {props.item.date}</Typography>
                     <Typography sx={{fontSize: '18px', fontFamily: "Playwrite GB S"}}>Descrição: {props.item.description}</Typography>
-                    <Typography sx={{fontFamily: "Playwrite GB S"}}>Read more...</Typography>
+                    <Typography sx={{fontFamily: "Playwrite GB S"}}>Explore: <a href={props.item.googleLink} target="_blank">Veja mais</a></Typography>
+                    <Typography sx={{fontFamily: "Playwrite GB S"}}>Loja: <a href={props.item.shop} target="_blank">Compre agora</a></Typography>
+                   
             </section>
         </Box>
     )

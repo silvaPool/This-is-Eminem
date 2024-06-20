@@ -11,6 +11,7 @@ export default function Cards(props) {
             </section>
             <section className="column-right">
                 <span className="material-symbols-outlined">location_on</span>
+                <span>{props.item.title}</span>
                     <span className="card-country">{props.item.country}</span>
                     {/* <a href={props.item.googleMapLink}>View on Google Maps</a> */}
                     <h4 className="card-date">{props.item.date}</h4>

@@ -5,7 +5,7 @@ export const data = [
         title: "A Hard Day's Night",
         description: 
 "Disco de platina",
-        coverImg: "eminem.jpg",
+        coverImg: "hardday.jpg",
         country: "EUA",
     },
     {
@@ -14,7 +14,7 @@ export const data = [
         title: "Help!",
         description: 
 "Disco de platina",
-        coverImg: "eminemHoudini.jpg",
+        coverImg: "help.jpg",
         country: "EUA",
     },
     {
@@ -23,7 +23,7 @@ export const data = [
         title: "Revolver",
         description: 
 "Disco de platina",
-        coverImg: "eminemShow.jpg",
+        coverImg: "revolver.jpg",
         country: "EUA",
     },
     {
@@ -32,7 +32,7 @@ export const data = [
         title: "The Beatles",
         description: 
 "álbum branco",
-        coverImg: "eminemShow.jpg",
+        coverImg: "thebeatles.webp",
         country: "EUA",
     }
 ]

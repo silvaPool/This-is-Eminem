@@ -37,8 +37,11 @@ h4, p {
 }
  
 .journal-header {
-  background-color: #d74180;
-  height: 130px;
+  background: url("../public/images/beatlescapa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
   justify-content: center;
   align-items: center;
   display: flex;

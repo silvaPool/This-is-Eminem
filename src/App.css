@@ -148,13 +148,18 @@ h4, p {
 }
 
 #right {
-  font-family: Playwrite GB J;
-  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
   border: 3rem solid rgb(0 0 0 / 10%);
+}
+
+.link {
+  font-family: Playwrite GB J;
+  font-size: 35px;
+  text-decoration: none;
+  color: inherit;
 }
 
 #grid {

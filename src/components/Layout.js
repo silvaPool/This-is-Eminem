@@ -1,4 +1,5 @@
 import { Box, Button, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Layout() {
     return (
@@ -6,10 +7,9 @@ function Layout() {
             <div id="left"></div>
             <div id="right">
 
-            <Button>The BEATLES</Button>
+              <Link to={'/albuns'} className="link"> The BEATLES</Link>
 
-               
-                </div>
+            </div>
         </div>
     )
 };

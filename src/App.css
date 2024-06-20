@@ -1,5 +1,15 @@
 /* App.css*/
- 
+
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0652dd;
+  --secondary-color: #ea2027;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -77,10 +87,10 @@ h4, p {
   font-size: 40px;
 }
  
-.card-date {
-  font-size: 18px;
+/* .card-date {
+  font-size: 20px;
 }
- 
+  */
 .card {
   /* align-items: center; */
   /* width: 175px; */
@@ -123,6 +133,41 @@ h4, p {
 .footer-caption {
   padding-left: 5px;
 }
+
+/* LAYOUT */
+
+#grid {
+  height: 100vh;
+}
+
+#left {
+  background: url("../public/images/mmm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#right {
+  font-family: Playwrite GB J;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: 3rem solid rgb(0 0 0 / 10%);
+}
+
+#grid {
+  transition: 300ms;
+  display: grid;
+  grid-template-columns: 48px auto;
+}
+
+#grid:has(#left:hover) {
+  grid-template-columns: 30% auto;
+}
+
+
  
 /* For mobile phones: */
 [class*="card-"] {

@@ -3,6 +3,7 @@ import { data } from './data';
 import Cards from './components/Cards';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Layout from './components/Layout';
 
 function App() {
   const mappedData = data.map((item) => {
@@ -12,11 +13,13 @@ function App() {
   })
   return (
 
-    <div className='App'>
-      <Header />
-      {mappedData}
-      <Footer />
-    </div>
+    // <div className='App'>
+    //   <Header />
+    //   {mappedData}
+    //   <Footer />
+    // </div>
+
+    <Layout />
    
   );
 }

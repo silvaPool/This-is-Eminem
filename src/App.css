@@ -187,3 +187,52 @@ h4, p {
     background-color: #de3163;
   }
 }
+
+
+
+.teste {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: #41295a;  
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a); 
+  background: linear-gradient(to right, #2F0743, #41295a); 
+  color: white;
+}
+
+.bloco1 {
+  position: relative;
+  bottom: 17%;
+  
+}
+
+.bloco2 {
+  height: 60%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* background-color: #2d1d3f; */
+}
+
+.blocos {
+  border-radius: 5px;
+  width: 40vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #2d1d3f;
+  transition: transform 0.3s ease;
+}
+
+.blocos:hover {
+  transform: scale(1.2);
+}

@@ -6,19 +6,22 @@ import Footer from './components/Footer';
 import Layout from './components/Layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Pages from './components/Pages';
+import Teste from './components/Teste';
 
 function App() {
- 
+  
   return (
 
-    <BrowserRouter>
+    // <BrowserRouter>
 
-        <Routes>
-          <Route path="/" element={<Layout />}/>
-          <Route path="albuns" element={<Pages />} />
-        </Routes>
+    //     <Routes>
+    //       <Route path="/" element={<Layout />}/>
+    //       <Route path="albuns" element={<Pages />} />
+    //     </Routes>
 
-    </BrowserRouter>
+    // </BrowserRouter>
+
+    <Teste />
 
     // <div className='App'>
     //   <Header />

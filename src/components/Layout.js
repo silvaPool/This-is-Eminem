@@ -7,7 +7,7 @@ function Layout() {
             <div id="left"></div>
             <div id="right">
 
-              <Link to={'/albuns'} className="link"> The BEATLES</Link>
+              <Link to={'/opcoes'} className="link"> The BEATLES</Link>
 
             </div>
         </div>

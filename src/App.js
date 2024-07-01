@@ -7,21 +7,23 @@ import Layout from './components/Layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Pages from './components/Pages';
 import Teste from './components/Teste';
+import HistoriasPage from './components/HistoriasPage';
 
 function App() {
   
   return (
 
-    // <BrowserRouter>
+    <BrowserRouter>
 
-    //     <Routes>
-    //       <Route path="/" element={<Layout />}/>
-    //       <Route path="albuns" element={<Pages />} />
-    //     </Routes>
+        <Routes>
+          <Route path="/" element={<Layout />}/>
+          <Route path="opcoes" element={<Teste />} />
+          <Route path="albuns" element={<Pages />} />
+        </Routes>
 
-    // </BrowserRouter>
+    </BrowserRouter>
 
-    <Teste />
+ 
 
     // <div className='App'>
     //   <Header />

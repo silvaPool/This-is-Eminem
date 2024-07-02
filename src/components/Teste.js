@@ -22,7 +22,7 @@ function Teste() {
             </Stack>
             <Stack className="blocos">
             <Typography sx={{fontSize: '20px', fontFamily: "Outfit"}}>
-                Histórias
+            <Link to={'/historias'} className="linkOpcoes">Histórias</Link>
             </Typography>
             </Stack>
             <Stack className="blocos">

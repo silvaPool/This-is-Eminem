@@ -13,17 +13,18 @@ function App() {
   
   return (
 
-    // <BrowserRouter>
+    <BrowserRouter>
 
-    //     <Routes>
-    //       <Route path="/" element={<Layout />}/>
-    //       <Route path="opcoes" element={<Teste />} />
-    //       <Route path="albuns" element={<Pages />} />
-    //     </Routes>
+        <Routes>
+          <Route path="/" element={<Layout />}/>
+          <Route path="opcoes" element={<Teste />} />
+          <Route path="albuns" element={<Pages />} />
+          <Route path="historias" element={<HistoriasPage />} />
+        </Routes>
 
-    // </BrowserRouter>
+    </BrowserRouter>
 
-    <HistoriasPage />
+    // <HistoriasPage />
 
  
 

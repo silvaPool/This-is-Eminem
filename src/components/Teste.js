@@ -1,5 +1,6 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
 import AlbumIcon from '@mui/icons-material/Album';
+import { Link } from "react-router-dom";
 
 function Teste() {
     
@@ -15,8 +16,8 @@ function Teste() {
 
         <Box className="bloco2">
             <Stack className="blocos">            
-            <Typography sx={{fontSize: '20px', fontFamily: "Outfit"}}>
-              Álbuns
+            <Typography sx={{fontSize: '10px', fontFamily: "Outfit"}}>
+              <Link to={'/albuns'} className="linkOpcoes">Álbuns</Link>
             </Typography>
             </Stack>
             <Stack className="blocos">

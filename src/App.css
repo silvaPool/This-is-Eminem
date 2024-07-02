@@ -141,7 +141,7 @@ h4, p {
 }
 
 #left {
-  background: url("../public/images/mmm.jpg");
+  /* background: url("../public/images/mmm.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -151,13 +151,20 @@ h4, p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #583a76;
   border: 3rem solid rgb(0 0 0 / 10%);
 }
 
 .link {
   font-family: Playwrite GB J;
   font-size: 35px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkOpcoes {
+  font-family: Playwrite GB J;
+  font-size: 15px;
   text-decoration: none;
   color: inherit;
 }

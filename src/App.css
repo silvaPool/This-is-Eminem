@@ -157,9 +157,10 @@ h4, p {
 
 .link {
   font-family: Playwrite GB J;
-  font-size: 35px;
+  font-size: 45px;
   text-decoration: none;
   color: inherit;
+
 }
 
 .linkOpcoes {
@@ -242,4 +243,19 @@ h4, p {
 
 .blocos:hover {
   transform: scale(1.1);
+}
+
+.game {
+  border-image: linear-gradient(hsl(240 100% 50% / .5), hsl(0 100% 50% / .5)) fill 1;
+}
+
+.hero {
+  background-image: url("../public/images/fundoirado.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  height: 100vh;
+  place-content: center;
+  text-align: center;
 }

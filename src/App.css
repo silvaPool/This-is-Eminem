@@ -19,6 +19,7 @@ body {
   font-family: 'Outfit', sans-serif;
    
 }
+
  
 a {
   color: #d74180;
@@ -136,23 +137,12 @@ h4, p {
 
 /* LAYOUT */
 
-#grid {
-  height: 100vh;
-}
 
-#left {
-  /* background: url("../public/images/mmm.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-#right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #583a76;
-  border: 3rem solid rgb(0 0 0 / 10%);
+.linkLayout {
+  text-decoration: none;
+  color: inherit;
+  font-family: Outfit;
+  font-size: 20px;
 }
 
 .link {
@@ -160,7 +150,6 @@ h4, p {
   font-size: 45px;
   text-decoration: none;
   color: inherit;
-
 }
 
 .linkOpcoes {
@@ -170,15 +159,7 @@ h4, p {
   color: inherit;
 }
 
-#grid {
-  transition: 300ms;
-  display: grid;
-  grid-template-columns: 48px auto;
-}
 
-#grid:has(#left:hover) {
-  grid-template-columns: 30% auto;
-}
 
 
  
@@ -196,6 +177,80 @@ h4, p {
   }
 }
 
+/* LAYOUT */
+
+.main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../public/images/fundoirado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .imgLayout {
+  background: url("../public/images/fundoirado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 450px;
+} */
+
+.game {
+  border-image: linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3)) fill 1;
+}
+
+iframe {
+  max-width: 30rem;
+  border-top: 40px groove var(--primary-color);
+  border-bottom: 40px groove var(--primary-color);
+  border-right: 28px solid var(--secondary-color);
+  border-left: 28px solid var(--secondary-color);
+  margin-top: 100px;
+}
+
+.stand-1 {
+  height: 90px;
+  width: 6px;
+  background-color: var(--primary-color);
+  transform: rotate(40deg);
+  position: relative;
+  top: -16px;
+  left: 200px;
+}
+
+.stand-2 {
+  height: 90px;
+  width: 6px;
+  background-color: var(--secondary-color);
+  transform: rotate(-40deg);
+  position: relative;
+  top: -105px;
+  left: 255px;
+}
+
+
+/* .game {
+  border-image: linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3)) fill 1;
+} */
+
+/* FUNDO DESFOCADO */
+
+/* .hero {
+  background-image: url("../public/images/fundoirado.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  height: 100vh;
+  place-content: center;
+  text-align: center;
+} */
 
 
 .teste {
@@ -238,25 +293,12 @@ h4, p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #2d1d3f;
+  background: rgba(0, 0, 0, 0.8);
   transition: transform 0.3s ease;
+  color: white;
 }
 
 .blocos:hover {
   transform: scale(1.1);
 }
 
-.game {
-  border-image: linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3)) fill 1;
-}
-
-.hero {
-  background-image: url("../public/images/fundoirado.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-
-  height: 100vh;
-  place-content: center;
-  text-align: center;
-}

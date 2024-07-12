@@ -12,7 +12,9 @@ function Teste() {
                Sejam Bem-vindos, The Siamese Quads <br />
                O que procuram?
             </Typography>
+            
         </Box>
+
 
         <Box className="bloco2">
             <Stack className="blocos">            
@@ -41,6 +43,7 @@ function Teste() {
             </Typography>
             </Stack>
         </Box>
+
        </Box>
       
     )

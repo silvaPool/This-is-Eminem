@@ -206,10 +206,11 @@ h4, p {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: #41295a;  
+  background: white;
+  /* background: #41295a;  
   background: -webkit-linear-gradient(to right, #2F0743, #41295a); 
-  background: linear-gradient(to right, #2F0743, #41295a); 
-  color: white;
+  background: linear-gradient(to right, #2F0743, #41295a);  */
+  color: black;
 }
 
 .bloco1 {
@@ -246,7 +247,7 @@ h4, p {
 }
 
 .game {
-  border-image: linear-gradient(hsl(240 100% 50% / .5), hsl(0 100% 50% / .5)) fill 1;
+  border-image: linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3)) fill 1;
 }
 
 .hero {

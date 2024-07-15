@@ -1,12 +1,9 @@
 import './App.css';
 import { data } from './data';
-import Cards from './components/Cards';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import Layout from './components/Layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Pages from './components/Pages';
-import Teste from './components/Teste';
+import Opcoes from './components/Opcoes';
 import HistoriasPage from './components/HistoriasPage';
 
 function App() {
@@ -17,7 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Layout />}/>
-          <Route path="opcoes" element={<Teste />} />
+          <Route path="opcoes" element={<Opcoes />} />
           <Route path="albuns" element={<Pages />} />
           <Route path="historias" element={<HistoriasPage />} />
         </Routes>

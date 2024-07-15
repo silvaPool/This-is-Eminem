@@ -2,7 +2,7 @@ import { Box, Container, Stack, Typography } from "@mui/material";
 import AlbumIcon from '@mui/icons-material/Album';
 import { Link } from "react-router-dom";
 
-function Teste() {
+function Opcoes() {
     
     return (
       
@@ -49,4 +49,4 @@ function Teste() {
     )
 }
 
-export default Teste;
+export default Opcoes;

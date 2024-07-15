@@ -143,6 +143,8 @@ h4, p {
   color: inherit;
   font-family: Outfit;
   font-size: 20px;
+  position: relative;
+  bottom: 50px;
 }
 
 .link {
@@ -159,10 +161,6 @@ h4, p {
   color: inherit;
 }
 
-
-
-
- 
 /* For mobile phones: */
 [class*="card-"] {
   width: 100%;
@@ -192,15 +190,6 @@ h4, p {
   height: 100vh;
 }
 
-/* .imgLayout {
-  background: url("../public/images/fundoirado.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 500px;
-  height: 450px;
-} */
-
 .game {
   border-image: linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3)) fill 1;
 }
@@ -214,25 +203,6 @@ iframe {
   margin-top: 100px;
 }
 
-.stand-1 {
-  height: 90px;
-  width: 6px;
-  background-color: var(--primary-color);
-  transform: rotate(40deg);
-  position: relative;
-  top: -16px;
-  left: 200px;
-}
-
-.stand-2 {
-  height: 90px;
-  width: 6px;
-  background-color: var(--secondary-color);
-  transform: rotate(-40deg);
-  position: relative;
-  top: -105px;
-  left: 255px;
-}
 
 
 /* .game {
@@ -252,6 +222,7 @@ iframe {
   text-align: center;
 } */
 
+/* ARQUIVO TESTE */
 
 .teste {
   border: 1px solid black;

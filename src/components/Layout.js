@@ -9,7 +9,7 @@ function Layout() {
         <Box className="main game">
             <Box className="whiteBox" >
               <Box>
-                <Typography sx={{fontSize: '65px', fontFamily: " Playwrite GB J", position: 'relative', bottom: '50px'}}>
+                <Typography id="beatlesTitle">
                     The Beatles
                 </Typography>
                 <Link to={'/opcoes'} className="linkLayout">Explorar <LoginIcon sx={{verticalAlign: 'middle'}}/></Link>

@@ -6,7 +6,7 @@ function Layout() {
     return (
       
         <Box className="main game">
-            <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 5, border: 'none', height: '70vh', width: '135vh', padding: '10px', background: 'white'}}>
+            <Box className="whiteBox" >
               <Box>
                 <Typography sx={{fontSize: '65px', fontFamily: " Playwrite GB J", position: 'relative', bottom: '50px'}}>
                     The Beatles

@@ -190,6 +190,31 @@ h4, p {
   height: 100vh;
 }
 
+
+.whiteBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5;
+  border: none;
+  height: 70vh;
+  width: 135vw;
+  padding: 10px;
+  background: white;
+}
+
+@media (max-width: 830px) {
+  .whiteBox {
+   width: 50%;
+   height: 50%;
+   border-radius: 10px;
+  }
+  iframe, .stand-1, .stand-2 {
+    display: none;
+   }
+}
+
+
 .game {
   border-image: linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3)) fill 1;
 }
@@ -222,14 +247,6 @@ iframe {
   top: -105px;
   left: 255px;
 }
-
-@media (min-width: 830px) {
-   iframe, .stand-1, .stand-2 {
-   display: none;
-  }
-
-}
-
 
 
 /* .game {

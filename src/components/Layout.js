@@ -1,5 +1,6 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import LoginIcon from '@mui/icons-material/Login';
 
 
 function Layout() {
@@ -11,7 +12,7 @@ function Layout() {
                 <Typography sx={{fontSize: '65px', fontFamily: " Playwrite GB J", position: 'relative', bottom: '50px'}}>
                     The Beatles
                 </Typography>
-                <Link to={'/opcoes'} className="linkLayout">Explorar</Link>
+                <Link to={'/opcoes'} className="linkLayout">Explorar <LoginIcon sx={{verticalAlign: 'middle'}}/></Link>
                 </Box>
                 
            <div class="i-frame">

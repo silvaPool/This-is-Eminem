@@ -190,15 +190,14 @@ h4, p {
   height: 100vh;
 }
 
-
 .whiteBox {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5;
+  gap: 15px;
   border: none;
   height: 70vh;
-  width: 135vw;
+  width: 70%;
   padding: 10px;
   background: white;
 }

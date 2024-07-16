@@ -1,9 +1,12 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import LoginIcon from '@mui/icons-material/Login';
 
 
 function LayoutTeste() {
+
+    const navigate = useNavigate();
+
     return (
 
         <Box className="fundoTeste">
@@ -61,7 +64,7 @@ height="315" */}
                    The Beatles
                 </Typography>
 
-                <button class="cssbuttons-io-button">
+                <button class="cssbuttons-io-button" onClick={() => navigate("/opcoes")}>
                         Get started
                         <div class="icon">
                             <svg

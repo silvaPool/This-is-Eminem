@@ -4,8 +4,8 @@
   --normal-font: 400;
   --bold-font: 600;
   --bolder-font: 900;
-  --primary-color: #0652dd;
-  --secondary-color: #ea2027;
+  --primary-color: white;
+  --secondary-color: black;
   --line-height: 1.7rem;
   --transition: 0.4s ease-in;
 }
@@ -182,7 +182,7 @@ h4, p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../public/images/fundoirado.jpg");
+  background: url("../public/images/beatleslayout.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -196,10 +196,16 @@ h4, p {
   align-items: center;
   gap: 15px;
   border: none;
-  height: 70vh;
-  width: 70%;
+  /* height: 70vh;
+  width: 70%; */
+  height: 50vh;
+
   padding: 10px;
-  background: white;
+  background: blue;
+  position: relative;
+  top: 100px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
 }
 
 /* sx={{fontSize: '65px', fontFamily: " Playwrite GB J", position: 'relative', bottom: '50px'}} */
@@ -260,27 +266,39 @@ iframe {
   border-bottom: 40px groove var(--primary-color);
   border-right: 28px solid var(--secondary-color);
   border-left: 28px solid var(--secondary-color);
-  margin-top: 100px;
+  position: relative;
+  top: 65px;
+  
 }
 
 .stand-1 {
-  height: 90px;
+  height: 60px;
   width: 6px;
   background-color: var(--primary-color);
   transform: rotate(40deg);
   position: relative;
-  top: -16px;
-  left: 200px;
+  top: 50px;
+  left: 182px;
 }
 
 .stand-2 {
-  height: 90px;
+  height: 60px;
   width: 6px;
   background-color: var(--secondary-color);
   transform: rotate(-40deg);
   position: relative;
-  top: -105px;
-  left: 255px;
+  bottom: 5px;
+  left: 220px;
+}
+
+.fundoTeste {
+  background: url("../public/images/funtopreto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -357,5 +375,74 @@ iframe {
     gap: 0;
     padding: 30px;
   }
+}
+
+/* DESENHO */
+
+.desenho {
+  border: 1px solid white;
+  width: 90%;
+  height: 60%;
+  transform: rotate(-5deg);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.cssbuttons-io-button {
+  background: white;
+  color: black;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em white;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+  width: 50%;
+}
+
+.cssbuttons-io-button .icon {
+  background: black;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em white;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: white;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
 }
 

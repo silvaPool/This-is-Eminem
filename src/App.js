@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Pages from './components/Pages';
 import Opcoes from './components/Opcoes';
 import HistoriasPage from './components/HistoriasPage';
+import LayoutTeste from './components/LayoutTeste';
 
 function App() {
   
@@ -13,7 +14,7 @@ function App() {
     <BrowserRouter>
 
         <Routes>
-          <Route path="/" element={<Layout />}/>
+          <Route path="/" element={<LayoutTeste />}/>
           <Route path="opcoes" element={<Opcoes />} />
           <Route path="albuns" element={<Pages />} />
           <Route path="historias" element={<HistoriasPage />} />

@@ -374,6 +374,94 @@ iframe {
     flex-direction: column;
     gap: 0;
     padding: 30px;
+    
+  }
+}
+
+/* IPAD PRO - SURFACE PRO 7 */
+
+@media (min-width: 1024px) {
+  .teste {
+    flex-direction: column;
+    gap: 0;
+    padding: 30px;
+  }
+
+  .bloco1 {
+    bottom: 110px;
+  }
+}
+
+/* SURFACE DUO */
+
+@media (min-width: 540px) {
+  .bloco1 {
+    bottom: 50px;
+  }
+}
+
+
+
+/* IPHONE SE */
+
+@media (max-width: 375px) {
+
+  .teste {
+    gap: 0;   
+  }
+
+  .bloco1 {
+    bottom: 20px;
+  }
+
+  .bloco2 {
+    height: 70%;
+  }
+
+  .titleOpcoes {
+    display: none;
+  }
+}
+
+/* IPHONE XR - IPHONE 12 PRO */
+
+@media (max-width: 414px) {
+
+  .teste {
+    gap: 0;   
+  }
+
+  .bloco1 {
+    bottom: 20px;
+  }
+
+  .bloco2 {
+    height: 70%;
+  }
+
+  .titleOpcoes {
+    display: none;
+  }
+}
+
+/* IPHONE 14 PRO MAX - PIXEL 7 - SAMSUNG GALAXY S8+ - SAMSUNG GALAXY S20 ULTRA */
+
+@media (max-width: 430px) {
+
+  .teste {
+    gap: 0;   
+  }
+
+  .bloco1 {
+    bottom: 20px;
+  }
+
+  .bloco2 {
+    height: 70%;
+  }
+
+  .titleOpcoes {
+    display: none;
   }
 }
 

@@ -9,7 +9,7 @@ function Opcoes() {
        <Box className="teste">
         <Box className="bloco1">
             <Typography sx={{fontSize: "2rem", fontFamily: "Playwrite GB J", textAlign: "center"}}>
-               Sejam Bem-vindos, The Siamese Quads <br />
+              <span className="titleOpcoes">Sejam Bem-vindos, </span> The Siamese Quads <br />
                O que procuram?
             </Typography>
             
